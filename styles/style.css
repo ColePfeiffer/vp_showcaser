@@ -13,6 +13,37 @@ body {
     border: 5px solid black;
 }
 
+/* Bestimmte Bedingung, nur wenn diese erfüllt ist, wird der Hintergrund entsprechend umgefärbt!
+*/
+@media (min-width: 80em) {
+    html {
+        background-color: blue;
+    }
+}
+
+.images{
+    width: 500px;
+    height: 500px;
+    
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+li{
+    display: inline-block;
+    padding: .5em;
+    border: 2px solid pink;
+}
+
+li img{
+    height: 160px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
 h1 {
     font-size: 50px;
     text-align: center;
